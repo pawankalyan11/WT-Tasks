@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Registration Form</title>
+  <style>
+    h1 {color: crimson;}
+  </style>
+</head>
+<body style="background-color: lightcyan; text-align: center;">
+    <h1>REGISTRATION FORM</h1><hr>
+    <form>
+        <label for="fname" style="font-family: impact; color: darkblue;">First Name:</label>
+        <input type="text" id="fname">
+        <label for="mname" style="font-family: impact; color: darkblue;">Middle Name:</label>
+        <input type="text" id="mname">
+        <label for="lname" style="font-family: impact; color: darkblue;">Last Name:</label>
+        <input type="text" id="lname">
+        <br><br>
+        <label for="Email" style="font-family: impact; color: darkblue;">Email id:</label>
+        <input type="text" id="Email"> 
+        <label for="Password" style="font-family: impact; color: darkblue;">Password:</label>
+        <input type="password" id="Password">
+        <label for="Confirm Password" style="font-family: impact; color: darkblue;">Confirm Password:</label>
+        <input type="password" id="Confirm Password"><br>
+        <br>
+        <label for="DOB" style="font-family: impact; color: darkblue;">DOB:</label>
+        <input type="date" id="DOB">
+        <b style="font-size: 20;">Gender:</b>
+        <select class="from-dropdown" id="input_3" data-component="dropdown" aria-label="Gender">
+          <option value="">Please Select</option><option value="Male">Male</option><option value="Female">Female</option>
+          <option value="Not Specified">Not Specified</option>
+        </select>
+        <br><br>
+        <label for="Mobile No" style="font-family: impact; color: darkblue;">Mobile No:</label>
+        <input type="text" id="Mobile NO">
+        
+        <b style="font-size: 20px;">Courses List:</b>
+        <select class="from-dropdown" id="input_5" data-component="dropdown" aria-label="Courses"><option value="">Please Select</option>
+          <option value="Web Development">Web Development</option><option value="Python">Python</option>
+          <option value="Java">Java</option><option value="DevOps">DevOps</option><option value="AWS Cloud">AWS Cloud</option>
+        </select><br>
+        <br>
+        <input type="submit" value="Register">
+        <input type="reset">
+        
+
+    </form>
+</body>
+</html>
